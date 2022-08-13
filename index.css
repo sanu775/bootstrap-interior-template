@@ -4,6 +4,7 @@
 }
 .navbar-brand {
     font-size: 2rem !important;
+        width: 18%;
 }
 .navbar-expand-lg {
     background-color: white !important;
@@ -163,7 +164,7 @@
     background-color: rgb(84, 84, 85) !important;
 }
 .carousel-indicators .active {
-    background-color: blue !important;
+    background-color: red !important;
 }
 .work-section{
     padding-top: 75px;
@@ -317,4 +318,10 @@
 }
 .f-bld {
     font-weight: 500;
+}
+.bdr-nav {
+    border-bottom: 2px solid red;
+}
+.hvr-nav:hover {
+    color: red !important;
 }

@@ -11,13 +11,18 @@
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <title>Home</title>
     <link rel="stylesheet" href="index.css">
+    <script>
+      const cars = ["faijan", "ajmul", "aamir",]
+      cars.forEach((data, index)=>{
+        (data + index)
+      })
+    </script>
 </head>
-<body>
-
+<body> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
         <div class="container-fluid px-5">
           <a class="navbar-brand text-primary"
-          >harbor</a>
+          ><img class="w-100" src="image/riasat-logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,22 +31,22 @@
            
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link text-primary" aria-current="page" href="index.css">Home</a>
+                      <a class="nav-link text-danger bdr-nav" aria-current="page" href="index.css">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="work.html">Work</a>
+                      <a class="nav-link hvr-nav" aria-current="page" href="work.html">Work</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="what.html">What We Do</a>
+                      <a class="nav-link hvr-nav" aria-current="page" href="what.html">What We Do</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="about.html">About</a>
+                      <a class="nav-link hvr-nav" aria-current="page" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="Gallery.html">Gallery</a>
+                      <a class="nav-link hvr-nav" aria-current="page" href="Gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                      <a class="nav-link hvr-nav" aria-current="page" href="contact.html">Contact</a>
                     </li>
                     </li>
                   </ul>
@@ -211,7 +216,7 @@
                 <div class="screen">
                   <div class="bottom-box">
                     <input class="input" type="text" name="" id="" placeholder="Enter Email">
-                    <button class="search-bar"><a class="text-decoration-none text-light" href="">Subscribe</a></button>
+                    <button class="search-bar bg-danger"><a class="text-decoration-none text-light" href="">Subscribe</a></button>
                   </div>
                 <p class="pt-5">Follow Us</p>
                 <div class="d-flex gap-5 pt-3">
